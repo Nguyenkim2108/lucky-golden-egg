@@ -27,15 +27,12 @@ const Egg: React.FC<EggProps> = ({
       <button
         onClick={onClick}
         disabled={disabled}
-        className={`
-          relative w-32 h-40 transition-all duration-300 transform hover:scale-105
-          ${disabled ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer hover:drop-shadow-lg'}
-        `}
+        className={`relative w-40 h-48 transition-all duration-300 transform hover:scale-105 ${disabled ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer hover:drop-shadow-lg'}`}
       >
         <img
           src={getEggImage()}
           alt={`Golden Egg ${id}${isBroken ? ' (broken)' : ''}`}
-          className="w-32 h-40 object-contain"
+          className="w-40 h-48 object-cover"
         />
         {isBroken && reward && (
           <div className="absolute inset-0 flex items-center justify-center">
@@ -45,7 +42,6 @@ const Egg: React.FC<EggProps> = ({
           </div>
         )}
       </button>
-      <span className="text-sm mt-2 text-center">Egg {id}</span>
     </div>
   );
 };
