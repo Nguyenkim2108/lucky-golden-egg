@@ -1,0 +1,13 @@
+<svg width="30" height="20" viewBox="0 0 30 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M15 1L19.5 9L29 10.5L22 14.5L24 20L15 16L6 20L8 14.5L1 10.5L10.5 9L15 1Z" fill="#FFD700" />
+  <path d="M15 1L19.5 9L29 10.5L22 14.5L24 20L15 16L6 20L8 14.5L1 10.5L10.5 9L15 1Z" fill="url(#crown-gradient)" />
+  
+  <defs>
+    <linearGradient id="crown-gradient" x1="1" y1="1" x2="29" y2="20" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFF9C4" />
+      <stop offset="0.3" stop-color="#FFF176" />
+      <stop offset="0.6" stop-color="#FFD700" />
+      <stop offset="1" stop-color="#FF8F00" />
+    </linearGradient>
+  </defs>
+</svg>
